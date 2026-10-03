@@ -1,0 +1,44 @@
+{
+  "name": "Steel Tides — Cinematic Naval Command",
+  "short_name": "Steel Tides",
+  "description": "Cinematic naval warfare: hidden fleets, tactical grids, and full battle cutscene theater. Fully offline after install.",
+  "id": "/",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "landscape",
+  "background_color": "#03060d",
+  "theme_color": "#03060d",
+  "lang": "en",
+  "categories": ["games", "entertainment"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Deploy Fleet",
+      "short_name": "Deploy",
+      "description": "Jump straight into fleet deployment",
+      "url": ".",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}
